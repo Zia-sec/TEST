@@ -1,12 +1,12 @@
 # Git 활용 및 Branch 전략
 start Github
 
-#Mac에서 설치하기
+# Mac에서 설치하기
 
 1. 터미널 접속
 2. "git --version" 입력시 없으면 설치, 있으면 버전 출력  
 
-#Github 명령어
+# Git branch 관련 명령어
 % git add .                #1차 가상공간 추가
 % git commit -m "메세지"     #가상공간에 최종 저장
 % git push origin master   #Github 파일 업로드 (master branch 가 main으로 생성되어 있을 수 있음 에러시 확인)
