@@ -59,6 +59,10 @@ $ git rebase master rel    #rel 브랜치를 master 브랜치로 merge
 3. 저장소 연결 및 강제 Push
   % git remote add origin
   % git push -u --force origin master
+  
+#Git과 Github의 차이  
+Git은 버전 관리 '프로그램' 
+Github는 버전 관리, 소스 코드 공유, 분산 버전 제어 등등이 가능한 원격 저장소
 
 
 참고자료
