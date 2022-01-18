@@ -22,7 +22,7 @@ start Github
 참고. rebase와 force push 의 위험성
  - rebase와 force push 의 위험성 때문에 master, develop, release 브랜치 단계에서 force push 는 막아두고 사용(우아한 형제들)
  - rebase 위험성 : https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0 하단 참고
- - force push 위험성 :
+ - force push 위험성 : https://taehwanno.github.io/post/2016/10/git-push-force
  
 추가.
 Hotfix 브랜치에서 구체적인 동작에 대해서 추가적으로 공부필요
