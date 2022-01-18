@@ -14,18 +14,7 @@ start Github
 % git remote               #로컬저장소와 원격저장소 연결 확인
 % git branch -v            #현재 branch 상황
 
-#Git을 통한 초기화 방법
-1. 기존 히스토리 삭제
-  % rm -rf .git 
-2. 새로운 git 설정
-  % git init
-  % git add . 
-  % git commit -m "TEST"
-3. 저장소 연결 및 강제 Push
-  % git remote add origin
-  % git push -u --force origin master
-
-#Git Branch Flow (효과적으로 나누고 관리하기)
+# Git Branch Flow (효과적으로 나누고 관리하기)
  - master 
   : 제품으로 출시되는 브랜치 release가 완료된 경우 merge 하며 버전 태그 부여
  - develop
@@ -54,6 +43,18 @@ Hotfix 브랜치에서 구체적인 동작에 대해서 추가적으로 공부�
   : issue 발생시 master 브랜치에서 feature 브랜치를 생성하여 개발,피드백,테스트가 충분히 이루어진 뒤에 merge
 
  master 브랜치 pull > 개발 > 테스트&피드백 > 머지 
+
+# Git을 통한 초기화 방법
+1. 기존 히스토리 삭제
+  % rm -rf .git 
+2. 새로운 git 설정
+  % git init
+  % git add . 
+  % git commit -m "TEST"
+3. 저장소 연결 및 강제 Push
+  % git remote add origin
+  % git push -u --force origin master
+
 
 참고자료
 https://hyeon9mak.github.io/git-branch-strategy/ 
